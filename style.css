@@ -74,7 +74,7 @@ p {
   height: 60vh;
   width: 90vw;
   border: 1px solid black;
-  margin: 1rem;
+  margin: 4rem 1rem;
   background-color: rgb(242, 242, 242);
 }
 
@@ -87,9 +87,7 @@ p {
 
 /* first drower(basic) */
 .basic-drower-box {
-  height: 16.8rem;
   width: 15.9rem;
-  /* padding: 16.8rem 15.9rem; */
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -166,20 +164,24 @@ p {
 .drower-hr {
   color: var(--light-gray);
 }
+hr {
+  color: gray;
+}
+
+.sticky-drower-title {
+  background-color: white;
+}
+.permanet-drower-box {
+  overflow: auto;
+}
+
+/* main contant */
 .drower-contant {
   overflow: auto;
   padding: 0.5rem 1rem;
-  height: 85%;
+  height: 82%;
 }
 .drower-contant-para {
   font-size: 1rem;
   font-weight: 300;
-}
-
-hr {
-  color: gray;
-}
-.permanet-drower-box {
-  height: 36rem;
-  overflow: auto;
 }
